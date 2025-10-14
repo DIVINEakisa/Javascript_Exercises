@@ -1,0 +1,10 @@
+let styles = ["Jazz", "Blues"];
+console.log(styles);
+styles.push("Rock-n-Roll");
+console.log(styles);
+styles[1] = "Classic";
+console.log(styles);
+let delStyles = styles.shift();
+console.log(styles);
+let addStyles = styles.unshift("Rap", "Reggae");
+console.log(styles);
